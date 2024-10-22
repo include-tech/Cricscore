@@ -1,0 +1,357 @@
+.banner-section .small-text,.about-us-section .small-text,.product-section .product-heading{
+  font-family: "Kaushan Script";
+}
+.banner-section .small-text,.about-us-section .john-text .post,.product-section .product-heading{
+  font-weight: 400;
+}
+.banner-section .play-btn a,.about-us-section .img-5 .text2,.about-us-section .john-text .mb-0{
+  font-weight: 600;
+}
+.about-us-section .img-5 .text1{
+  font-weight: 900;
+}
+/*.banner-section .slider-content{                                                                                                                                                                            t{
+  margin: 0 auto !important;
+}*/
+.banner-section .slider-content a,.about-us-section .explore-btn a,
+.product-section .product-title-link,
+.product-section .ive-pt-btn,.product-section .added_to_cart {
+  text-decoration: none !important;
+}
+.banner-section .slider-content a,.about-us-section .explore-btn a{
+  padding: 8px 22px !important;
+}
+.banner-section .btn-section{
+  gap: 0em!important;
+}
+.banner-section .play-btn .ive-right-icon-parent,.john-section img{
+  border-radius: 50%;
+}
+.banner-section span.wp-block-cover__background.has-black-background-color.has-background-dim-0.has-background-dim{
+  opacity: 0.6 !important;
+}
+.banner-section{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    position: relative;
+    background-size: cover !important;
+    background: url(../images/banner.png) no-repeat #000;
+    min-width: 100%;
+    padding: 17em 0em;
+    -webkit-mask-image: url(../images/mask.png)!important;
+    mask-image: url(../images/mask.png)!important;
+    -webkit-mask-size: 100% 100%;
+    background-size: 100% 100% !important;
+}
+.player-section{
+  position: relative;
+}
+.player-section .player-sec{
+  position: absolute;
+  bottom: 0%;
+  right: -23%;
+}
+.player-section .boll-sec{
+  position: absolute;
+  bottom: 0%;
+  right: 35%;
+}
+.about-us-section .img-1 img{
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: -10%;
+}
+.about-us-section .top-col{
+  margin-left: 20%;
+  justify-content: start !important;
+}
+.about-us-section .img-2 img,.about-us-section .img-5{
+  border-radius: 20px;
+}
+.about-us-section .top-col,.about-us-section .auther-sec,.about-us-section .john-section{
+  gap: 0em;
+}
+.about-us-section .img-3 img{
+  border: 8px solid #fff;
+  border-radius: 20px 50px 20px 20px;
+  margin-top: -64px;
+}
+.about-us-section .img-5{
+  padding: 10px 20px 10px 20px;
+  align-items: center;
+  position: relative;
+  bottom: 50px;
+  width: 240px;
+  gap: 0em;
+}
+.about-us-section .img-5:after{
+  background: url(../images/red-ball.png) no-repeat;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -84%;
+  top: 50%;
+  transform: translateY(-18px);
+}
+.john-section h4,.product-section p,.about-us-section .about-text p,.about-us-section .img-5 p{
+  margin-bottom: 0 !important;
+}
+.about-us-section .auther-sec{
+  width: 70%;
+}
+.about-us-section .explore-btn a:hover{
+  background-color: #FF6F00 !important;
+}
+.product-section{
+  display: flex;
+}
+.product-section .woocommerce ul.products li.product{
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 10px !important;
+}
+.product-section .woocommerce ul.products li.product:hover{
+  border: 1px solid #F36C03;
+}
+.banner-section .btn-section,.about-us-section .john-section{
+  flex-wrap: nowrap !important;
+}
+.product-section span.price{
+  color: #8d8b8b !important;
+}
+.product-section .onsale{
+  display: none;
+}
+.sponser-section .wp-block-group{
+  gap: 5em;
+}
+@media screen and (min-width: 1200px) and (max-width: 1440px){
+  .player-section .player-sec{
+    right: -10%;
+  }
+}
+@media screen and (max-width: 1199px){
+  .banner-section{
+    padding: 0em !important;
+  }
+}
+@media screen and (max-width: 991px){
+  .banner-section .slider-para{
+    display: none;
+  }
+  .about-us-section{
+    flex-wrap: wrap !important;
+  }
+  .about-us-section .about-us-left,.about-us-section .about-us-right{
+    flex-basis: 100% !important;
+  }
+  .about-us-section .about-us-left{
+    order: 2;
+  }
+  .about-us-section .about-us-right{
+    order: 1;
+  }
+  .banner-section h2{
+    font-size: 30px !important;
+  }
+}
+@media screen and (max-width: 767px){
+  .player-section{
+    display: none !important;
+  }
+  .banner-section{
+    mask-image:none !important;
+    min-height: 400px !important;
+  }
+  .about-us-section .auther-sec{
+    gap: 0.5em;
+  }
+  .about-us-section .auther-sec .author{
+    padding: 10px 0;
+  }
+  .sponser-section .wp-block-ive-slide .carousel-image img{
+    height: auto !important;
+    width: 200px !important;
+    margin: 0 auto !important;
+  }
+  .banner-section h2,.banner-section p{
+    text-align: center !important;
+  }
+  .banner-section .btn-section{
+    justify-content: center;
+  }
+  .about-us-section .img-5 .text1{
+    font-size: 20px !important;
+  }
+  .about-us-section .img-5 .text2{
+    font-size: 14px !important;
+  }
+  .product-section .woocommerce ul.products li.product{
+    width: 100% !important;
+  }
+  .product-section .mb-5{
+    margin-bottom: 1rem !important;
+  }
+  .sponser-section .wp-block-group{
+    gap: 2em;
+    flex-wrap: wrap !important;
+  }
+}
+@media screen and (max-width: 575px){
+  .banner-section .btn-section{
+    flex-wrap: wrap !important;
+  }
+  .about-us-section .john-section .john-img,.about-us-section .john-section:not(.is-not-stacked-on-mobile)>.john-img {
+    flex-basis: 40% !important;
+  }
+  .about-us-section .john-section .john-text,.about-us-section .john-section:not(.is-not-stacked-on-mobile)>.john-text{
+    flex-basis: 60% !important;
+  }
+  .about-us-section .john-section:not(.is-not-stacked-on-mobile)>.wp-block-column{
+    width: auto;
+  }
+  .sponser-section .wp-block-ive-slide{
+    padding: 30px !important;
+  }
+  .about-us-section{
+    padding: 20px !important;
+  }
+  .about-us-section .img-1 img{
+    height: 100px !important;
+    width: auto !important;
+  }
+  .about-us-section .img-2 img{
+    width: 180px !important;
+    height: 130px !important; 
+  }
+  .about-us-section .img-3 img{
+    height: 100px !important;
+    width: 300px !important;
+    margin-top: -60px !important;
+    margin-left: 23%;
+  }
+  .about-us-section .img-4{
+    width: 100% !important;   
+  }
+  .about-us-section .img-4 img{
+    margin-left: 20%;
+  }
+  .about-us-section .img-5{
+    width: 300px !important;
+    padding: 10px !important;
+  }
+  .about-us-section .img-5:after{
+    right: -75% !important;
+  }
+  .about-us-section .top-col{
+    margin-left: 20%;
+  }
+  .about-us-section .bottom-col{
+    gap: 0em !important;
+  }
+  .about-us-section .john-section{
+    gap: 0.5em;
+  }
+  .product-section,.about-us-section{
+    margin-top: 0rem !important;
+  }
+  .sponser-section .wp-block-image{
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px){
+  .banner-section .read-more .ive-btn-wrap {
+    text-align: center !important;
+  }
+  .banner-section .play-btn .ive-btn-wrap {
+    text-align: left !important;
+  }
+  .about-us-section .auther-sec{
+    flex-wrap: nowrap !important;
+  }
+  .about-us-section .john-section,.about-us-section .john-section:not(.is-not-stacked-on-mobile)>.wp-block-column{
+    flex-basis: auto !important;
+  }
+  .about-us-section .john-section:not(.is-not-stacked-on-mobile)>.wp-block-column{
+    width: auto;
+  }
+  .sponser-section .wp-block-ive-slide{
+    padding: 10px !important;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){ 
+  .player-section .player-sec img{
+    height: 550px !important;
+  }
+  .player-section .player-sec{
+    right: -20%;
+  }
+  .about-us-section .auther-sec{
+    width: auto !important;
+  }
+  .banner-section .btn-section:not(.is-not-stacked-on-mobile)>.read-more{
+    flex-basis: 35% !important;
+  }
+  .banner-section .btn-section:not(.is-not-stacked-on-mobile)>.play-btn{
+    flex-basis: 65% !important;
+  }
+  .about-us-section .img-5{
+    padding: 10px !important;
+  }
+  .sponser-section .wp-block-ive-slide{
+    padding: 25px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .player-section .player-sec img{
+    height: 350px !important;
+  }
+  .player-section .player-sec{
+    right: -32%;
+  }
+  .banner-section .slider-content a{
+    padding: 10px !important;
+  }
+  .banner-section{
+    min-height: 400px !important;
+  }
+  .banner-section .slider-content .slider-left,.slider-content:not(.is-not-stacked-on-mobile)>.slider-left{
+    flex-basis: 60% !important;
+  }
+  .banner-section .slider-content .slider-right,.slider-content:not(.is-not-stacked-on-mobile)>.slider-right{
+    flex-basis: 40% !important;
+  }
+  .banner-section .slider-content,.about-us-section .auther-sec,.about-us-section .john-section{
+    flex-wrap: nowrap !important;
+  }
+  .banner-section .btn-section:not(.is-not-stacked-on-mobile)>.read-more,
+  .about-us-section .john-section:not(.is-not-stacked-on-mobile)>.john-img{
+    flex-basis: 35% !important;
+  }
+  .banner-section .btn-section:not(.is-not-stacked-on-mobile)>.play-btn,
+  .about-us-section .john-section:not(.is-not-stacked-on-mobile)>.john-text{
+    flex-basis: 65% !important;
+  } 
+  .product-section .slider-product-item img{
+    height: 300px !important;
+  }
+  .sponser-section .wp-block-ive-slide{
+    padding: 25px !important;
+  }
+  .sponser-section .wp-block-group{
+    gap: 2em;
+  }
+  .product-section .woocommerce ul.products li.product{
+    width: 48%;
+    margin-right: 2%;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 991px){
+  .product-section .slider-product-item{
+    width: 50% !important;
+  }
+}

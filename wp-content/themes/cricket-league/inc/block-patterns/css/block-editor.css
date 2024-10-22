@@ -1,0 +1,139 @@
+.banner-section .small-text,.about-us-section .small-text,.product-section .product-heading{
+  font-family: "Kaushan Script";
+}
+.banner-section .small-text,.about-us-section .john-text .post,.product-section .product-heading{
+  font-weight: 400;
+}
+.banner-section .play-btn a,.about-us-section .img-5 .text2,.about-us-section .john-text .mb-0{
+  font-weight: 600;
+}
+.about-us-section .img-5 .text1{
+  font-weight: 900;
+}
+.banner-section .small-text,.banner-section h2,.banner-section p{
+  margin: 0;
+}
+/*.banner-section .slider-content{                                                                                                                                                                           t{
+  margin: 0 auto !important;
+}*/
+.banner-section .slider-content a,.about-us-section .explore-btn a,
+.product-section .product-title-link,
+.product-section .ive-pt-btn,.product-section .added_to_cart {
+  text-decoration: none !important;
+}
+.banner-section .slider-content a,.about-us-section .explore-btn a{
+  padding: 8px 22px !important;
+}
+.banner-section .btn-section{
+  gap: 0em!important;
+}
+.banner-section .play-btn .ive-right-icon-parent,.john-section img{
+  border-radius: 50%;
+}
+.banner-section span.wp-block-cover__background.has-black-background-color.has-background-dim-0.has-background-dim{
+  opacity: 0.6 !important;
+}
+.banner-section .slider-left{
+  margin-left: 14% !important;
+}
+.banner-section{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    position: relative;
+    background-size: cover !important;
+    background: url(../images/banner.png) no-repeat #000;
+    min-width: 100%;
+    padding: 10em 0em;
+    -webkit-mask-image: url(../images/mask.png)!important;
+    mask-image: url(../images/mask.png)!important;
+    -webkit-mask-size: 100% 100%;
+    background-size: 100% 100% !important;
+}
+.player-section{
+  position: relative;
+}
+.player-section .player-sec{
+  position: absolute;
+  bottom: 0%;
+  right: -48%;
+}
+.player-section .boll-sec{
+  position: absolute;
+  bottom: 0%;
+  right: 35%;
+}
+.about-us-section{
+  max-width: 1200px !important;
+}
+.about-us-section .img-1 img{
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: -10%;
+}
+.about-us-section .top-col{
+  margin-left: 20%;
+  justify-content: start !important;
+}
+.about-us-section .img-2 img,.about-us-section .img-5{
+  border-radius: 20px;
+}
+.about-us-section .top-col,.about-us-section .auther-sec,.about-us-section .john-section{
+  gap: 0em;
+}
+.about-us-section .img-3 img{
+  border: 8px solid #fff;
+  border-radius: 20px 50px 20px 20px;
+  margin-top: -64px;
+}
+.about-us-section .img-5{
+  padding: 10px 20px 10px 20px;
+  align-items: center;
+  position: relative;
+  bottom: 50px;
+  width: 240px;
+  gap: 0em;
+}
+.about-us-section .img-5:after{
+  background: url(../images/red-ball.png) no-repeat;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: -84%;
+  top: 50%;
+  transform: translateY(-18px);
+}
+.john-section h4,.product-section p,.about-us-section .about-text p,.about-us-section .img-5 p{
+  margin-bottom: 0 !important;
+}
+.about-us-section .auther-sec{
+  width: 70%;
+}
+.about-us-section .explore-btn a:hover{
+  background-color: #FF6F00 !important;
+}
+.product-section{
+  display: flex;
+}
+.product-section .woocommerce ul.products li.product{
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 10px !important;
+}
+.product-section .woocommerce ul.products li.product:hover{
+  border: 1px solid #F36C03;
+}
+.banner-section .btn-section,.about-us-section .john-section{
+  flex-wrap: nowrap !important;
+}
+.product-section span.price{
+  color: #8d8b8b !important;
+}
+.product-section .onsale{
+  display: none;
+}
+.sponser-section .wp-block-group{
+  gap: 5em;
+}

@@ -1,0 +1,10 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+#crictimes-widget {
+    width: 1000%;
+    height: 100vh;
+    border: none;
+    overflow: hidden;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->
