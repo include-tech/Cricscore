@@ -47,7 +47,7 @@
     top: 20px;
     font-size: 37px;
     z-index: 999;
-    color: var(--theme-color-red);
+    color: var(--theme-color-red);   
 }
 
 .search-popup--style-two .search_close_btn:hover {
